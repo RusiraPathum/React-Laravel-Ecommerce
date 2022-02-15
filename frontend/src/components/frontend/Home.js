@@ -1,9 +1,13 @@
 import Navbar from "../../layouts/frontend/Navbar";
 
 const Home = () => {
-    return ( 
-        <Navbar/>
-     );
+    return (
+        <div>
+            <Navbar />
+            <h1>Home page</h1>
+        </div>
+
+    );
 }
- 
+
 export default Home;
