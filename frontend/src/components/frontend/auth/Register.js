@@ -76,17 +76,17 @@ const Register = () => {
                                     <div className="form-group mb-3">
                                         <label>Full Name</label>
                                         <input type="text" name="name" className="form-control" onChange={handleInput} value={registerInput.name} />
-                                        <span>{registerInput.error_list.name}</span>
+                                        <span className="text-danger">{registerInput.error_list.name}</span>
                                     </div>
                                     <div className="form-group mb-3">
                                         <label>Email</label>
                                         <input type="email" name="email" className="form-control" onChange={handleInput} value={registerInput.email} />
-                                        <span>{registerInput.error_list.email}</span>
+                                        <span className="text-danger">{registerInput.error_list.email}</span>
                                     </div>
                                     <div className="form-group mb-3">
                                         <label>Password</label>
                                         <input type="password" name="password" className="form-control" onChange={handleInput} value={registerInput.password} />
-                                        <span>{registerInput.error_list.password}</span>
+                                        <span className="text-danger">{registerInput.error_list.password}</span>
                                     </div>
                                     <div className="form-group d-flex  justify-content-end mb-3">
                                         <button type="submit" className="btn btn-primary" value="">Register</button>
